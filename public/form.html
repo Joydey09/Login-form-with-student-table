@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style1.css" />
+	<title>Form</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<legend>Registration Form</legend>
+
+		<form>
+
+			<div class="name">
+				<label>First name: <input name="firstName" required /></label>
+			</div>
+
+			<div class="last">
+				<label>Last name: <input name="lastName" required /></label>
+			</div>
+
+			<div class="gender">
+				Gender :
+				<label><input type="radio" name="gender" value="male" /> Male</label>
+				<label><input type="radio" name="gender" value="female" /> Female</label>
+			</div>
+
+			<div class="email">
+				<label>Email:<input type="email" name="email" placeholder="jdey5777@gmail.com" required /></label>
+			</div>
+
+			<div class="password">
+				<label>Password:<input type="password" name="password" placeholder="*********" required /></label>
+			</div>
+
+			<div class="birth">
+				<label>Date of Birth:<input type="date" name="birthDate"></label>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">Pymant Mode</button>
+				<div class="dropdown-content">
+					<a href="#">Google Pay</a>
+					<a href="#">Paytm</a>
+					<a href="#">Amazon Pay</a>
+				</div>
+			</div>
+
+			<div class="btn">
+				<button onclick="location.href='login.html'" class="button">
+					Submit</button>
+			</div>
+
+			<p class="text">Already have an account? <a href="login.html">login</a> </p>
+
+	</div>
+	</form>
+</body>
+
+</html>
